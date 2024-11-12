@@ -1,50 +1,50 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+} /* Uses Arial font, removes margin and padding, and sets up a column flexbox layout with a minimum height equal to the viewport height. */
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
+.wrapper { 
+    display: flex; 
+    flex-direction: column; 
+    flex: 1; 
+} /* Defines a flex container that arranges its children in a column and takes up available space. */
 
-header {
-    height: 50px;
-    background-color: cyan;
-    text-align: center;
-    line-height: 50px;
-}
+header { 
+    height: 50px; 
+    background-color: cyan; 
+    text-align: center; 
+    line-height: 50px; 
+} /* Sets the header height, background color, centers the text, and vertically centers text with a matching line height. */
 
-.main {
-    flex: 1;
-    display: grid;
-    grid-template-rows: auto;
-}
+.main { 
+    flex: 1; 
+    display: grid; 
+    grid-template-rows: auto; 
+} /* Occupies remaining space using grid layout with automatically sized rows. */
 
-.nested-grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-gap: 10px;
-    height: 100%;
-}
+.nested-grid { 
+    display: grid; 
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-gap: 10px; 
+    height: 100%; 
+} /* Creates a grid layout with three columns, a gap between items, and full height. */
 
-.nav, .content, .sidebar {
-    background-color: #3399FF;
-    padding: 10px;
-    box-sizing: border-box;
-}
+.nav, .content, .sidebar { 
+    background-color: #3399FF; 
+    padding: 10px; 
+    box-sizing: border-box; 
+} /* Applies background color, padding, and includes padding in the element's total width and height. */
 
-.footer {
-    height: 50px;
-    background-color: cyan;
-    text-align: center;
-    line-height: 50px;
-}
+.footer { 
+    height: 50px; 
+    background-color: cyan; 
+    text-align: center; 
+    line-height: 50px; 
+} /* Sets the footer height, background color, centers the text, and vertically centers text with a matching line height. */
 
 a { 
     display: inline-block; 
@@ -52,12 +52,12 @@ a {
     text-decoration: none; 
     padding: 5px 10px; 
     border: 3px solid #00FFFF; 
-    transition: all 0.3s ease;
-    background-color: #000080;
-} 
+    transition: all 0.3s ease; 
+    background-color: #000080; 
+} /* Styles links as inline blocks with yellow text, no underline, padding, cyan border, smooth transition, and dark navy background. */
 
 a:hover { 
     background-color: green; 
     color: white; 
     border: 3px solid yellow; 
-}
+} /* Changes the background, text color, and border color of links when hovered over. */
