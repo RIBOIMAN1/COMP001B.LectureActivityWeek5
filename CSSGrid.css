@@ -7,12 +7,6 @@ body {
     min-height: 100vh; 
 } /* Uses Arial font, removes margin and padding, and sets up a column flexbox layout with a minimum height equal to the viewport height. */
 
-.wrapper { 
-    display: flex; 
-    flex-direction: column; 
-    flex: 1; 
-} /* Defines a flex container that arranges its children in a column and takes up available space. */
-
 header { 
     height: 50px; 
     background-color: cyan; 
